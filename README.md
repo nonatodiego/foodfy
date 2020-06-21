@@ -20,7 +20,7 @@
 ## Apresentação do Projeto :sparkles:
 
 <p align="center">
-<image src=".github/image-example.png" />
+<image src="https://github.com/nonatodiego/foodfy/blob/master/layouts/mockup.png" />
 </p>
 
 ---
