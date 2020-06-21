@@ -1,8 +1,8 @@
 <h1>Foodfy</h1>
 
 <p align="center">
-<image src="https://www.creativefabrica.com/wp-content/uploads/2019/08/Restaurant-Logo-by-Koko-Store-580x386.jpg"/></br>
-<label>Logo</label>
+<image src="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c2/99/cb/c299cb56-2494-5ee3-6b4e-163d73e8b697/source/256x256bb.jpg"/></br>
+<label>Foodfy</label>
 </p>
 
 <p align="center">
@@ -10,10 +10,6 @@
 <a href="#tecnologias-rocket">Tecnologias</a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 <a href="#como-contribuir-">Como Contribuir</a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 <a href="#licença-scroll">Licença</a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
-</p>
-
-<p align="center">
-<image src="https://img.shields.io/badge/Shields-customizados-red"/>
 </p>
 
 
