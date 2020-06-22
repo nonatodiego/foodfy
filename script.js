@@ -3,15 +3,21 @@ const cards = document.querySelectorAll('.card')
 
 for(let card of cards) {
   card.addEventListener("click", function(){
-    const linkId = card.getAttribute("id")
-    modalOverlay.classList.add('active')    
-    // modalOverlay.querySelector("iframe").src = ${linkId}
+    // PEGA O ID DO CARD
+    const cardID = card.getAttribute("id")
+    // ATIVA O MODAL 
+    modalOverlay.classList.add('active')
+
+    modalOverlay.classList.add('modal-content')     
+    // modalOverlay.querySelector('modal-content') = cardID
   })
 }
 
 
+
+
+// FECHAR MODAL 
 document.querySelector(".close-modal").addEventListener("click", function(){
-  modalOverlay.classList.remove('active')
-  // modalOverlay.querySelector("iframe").src = ""
+  modalOverlay.classList.remove('active')  
 })
 

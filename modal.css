@@ -20,26 +20,26 @@
   border-radius: 16px; 
 }
 
-.modal-content .card-modal img{
+.modal-content img{
   width: 600px;
   height: 200px;
   border-radius: 15px;
   margin: 30px 30px 20px 30px;
 }
 
-.modal-content .card-modal h3 {
+.modal-content h3 {
   text-align: center;
   font-size: 24px;
   font-weight: 400;
 }
 
-.modal-content .card-modal p {
+.modal-content p {
   margin-top: 5px;
   text-align: center;
   font-size: 18px;
 }
 
-.modal-content .card-modal p span {  
+.modal-content p span {  
   color: #777777;  
 }
 
