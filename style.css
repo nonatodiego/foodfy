@@ -18,8 +18,7 @@ body {
 
 header{
     text-align: center;
-    max-width: 940px;
-    /* margin-left: 485px; */
+    max-width: 940px;    
     align-items: flex-start;
     display: flex;
     margin-bottom: 30px;
@@ -76,6 +75,7 @@ header img{
 #wrapper .info h1{
     font-size: 32px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 #wrapper .info p{
@@ -133,7 +133,7 @@ header img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
-    gap: 20px;
+    gap: 30px;
 }
 
 .recipe_image-container img{
