@@ -1,203 +1,232 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
-
-:root {
-  --primary-color: #FBDFDB; 
-  --font-color: #111111; 
-}
-
 
 body {
-  font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .container {
-  max-width: 940px;
-  /* text-align: center; */
-  margin: 0 auto;
-
-
-  /* border: 1px solid red; */
+    max-width: 940px;
+    margin: 0 auto;
 }
 
-/* MENU */
-
-header .menu {
-  display: flex;
-  justify-content: start;
-  align-content: center;
-  margin: 40px auto;
+header{
+    text-align: center;
+    max-width: 940px;
+    /* margin-left: 485px; */
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 30px;
 }
 
-header .menu img{
-  margin-right: 123px;
-  width: 90px;
-  height: 27px;
+header img{
+    size: 90.6px;
+    height: 26.9;
+    margin-top: 37px;
+    margin-right: 122.4px;
 }
 
-header .menu nav a{
-  text-decoration: none;
-  margin-right: 30px;
-
-  font-size: 16px;
-  color: #000;
-  line-height: 19px;
+.links{
+    margin-top: 38px;
 }
 
-header .menu nav a:hover {
-  background-color: var(--primary-color);
+.links a{
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    font-size: 16px;
+    width: 42px;
+    margin: 0 15px;
 }
 
-/* BANNER  */
-
-header .banner {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-
-  height: 366px;
-  max-width: 940px;
-  background-color: var(--primary-color);
-  border-radius: 30px;
+.links a.active {
+    font-weight: bold;
 }
 
-header .banner .text-banner {
-  /* border: 1px solid red; */
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  justify-content: center;
-  align-content: center;
+.links a:hover{
+    font-weight: bold;
 }
 
-header .banner .text-banner h1 {
-  /* border: 1px solid blue; */
-  margin-top: 117px;  
-  font-size: 32px;
-  color: #111111;
-  font-weight: 900;
+
+/*=== WRAPPER ===*/
+
+#wrapper{
+    display: flex;
+    background-color: #FBDFDB;
+    max-width: 940px;
+    height: 366px;
+    margin: 0 auto;
+    margin-top: 36px;
+    border-radius: 30px;
 }
 
-header .banner .text-banner p {
-  /* margin-top: 10px;
-  margin-left: 60px; */ 
-  /* border: 1px solid red;   */
-  text-align: left;
-  max-width: 316px;
-  /* height: 84px; */
-
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 28px;
+#wrapper .info{
+    margin-top: 117px;
+    margin-left: 60px;
+    text-align: left;
+    line-height: 28px;
 }
 
-header .img-banner {
-  align-self: end;
-}
-header .banner img {  
-  margin-left: 150px;
-  width: 216px;
-  height: 300px;
+#wrapper .info h1{
+    font-size: 32px;
+    font-weight: bold;
 }
 
-/* MAIN  */
-
-main {  
-  margin-top: 50px;
+#wrapper .info p{
+    width: 316px;
+    height: 84px;
+    font-size: 18px;
+    opacity: 0.7;
+    
 }
 
-main h1 {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 28px;
-  color: var(--font-color); 
-  text-align: left;
-
-  margin-bottom: 20px;
+#wrapper img{
+    width: 216px;
+    height: 300px;
+    margin-top: 66px;
+    margin-right: 100px;
+    margin-left: 259px;
 }
 
-main .cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;  
-  gap: 20px;
+.about{    
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: justify;
 }
 
-main .cards .card {
-  cursor: pointer;
+.about h1{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 24px;
 }
 
-main .cards .card img{
-  max-width: 300px;
-  height: 140px;
-  border-radius: 15px;
+
+.about h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 
-main .cards .card img:hover {
-  height: 200px;  
-  transition: 400ms ease-in;
+.about p{
+    font-size: 18px;
+    margin-bottom: 50px;
 }
 
-main .cards .card h3 {
-  font-size: 18px;
-  text-align: left;
-  font-weight: normal;
-  line-height: 21px;
-  color: var(--font-color);
-  margin-top: 20px;
-  margin-bottom: 5px;
+/* === CARDS === */
+
+#title{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-right: 765px;
 }
 
-main .cards .card h3:hover {
-  transition: 1s ease;
-  background-color: var(--primary-color);
+.recipes{
+    max-width: 940px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    gap: 20px;
 }
 
-main .cards .card p {
-  font-size: 14px;
-  font-weight: normal;
-  text-align: left;
-  line-height: 16px;
+.recipe_image-container img{
+    width: 300px;
+    height: 140px;
+    border-radius: 15px;
 }
 
-main .cards .card p span {
-  color: #777777;
+.card .info .nome{
+    font-size: 18px;
 }
 
-footer {
-  display: grid;
-  grid-template-rows: 1fr;
-  align-content: center;
-  justify-content: center;
-  margin-top: 50px;
-  height: 62px;
-  width: 100%;
-  background: #EEEEEE;
-  text-transform: ;
+.card .recipe_info .chef{
+    font-size: 14px;
+    color: #777777
+}
+.card:hover{
+    cursor: pointer;
 }
 
-footer p {
-  justify-self: center;
-  align-self: center;
-  font-size: 14px;
-  line-height: 16px;
-  color: #999999;
-}  
- 
-/* PÁGINA SOBRE  */
-
-header .menu nav a.active {
-  font-weight: bold;
+footer{
+    margin-top: 50px;
+    height: 62px;
+    background-color: #EEEEEE;
+    
 }
 
-header .about {
-  margin-bottom: 50px;
+footer p{
+    font-size: 14px;
+    line-height: 6.5vh;
+    text-align: center;
+    color: #999999;
 }
 
-.text-sobre h1 {
-  margin-top: 30px;
-  margin-bottom: 20px;
-  font-size: 24px;  
+
+/* === MODAL === */
+
+.modal_overlay{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
 }
 
+.modal{
+    background-color: white;
+    border-radius: 16px;
+    width: 660px;
+    height: 413px;
+    margin: 27vh auto;
+    position: relative;
+}
+
+.modal_image-container img{
+    margin: 30px;
+    width: 600px;
+    height: 200px;
+    border-radius: 15px; 
+}
+
+.modal_content{
+    text-align: center;
+}
+
+.modal_content .nome{
+    font-size: 24px;
+}
+
+.modal_content .chef{
+    font-size: 18px;
+    color: #777777;
+}
+
+.modal_close{
+    text-align: center;
+}
+
+.modal_close:hover{
+    cursor: pointer;
+}
+
+.modal_close p{
+    color: #999999;
+    margin-top: 60px;
+}
+
+
+/* === MODAL ACTIVE === */
+
+.modal_overlay.active{
+    opacity: 1;
+    visibility: visible;
+}

@@ -1,23 +1,22 @@
-const modalOverlay = document.querySelector('.modal-overlay')
+const modalOverlay = document.querySelector('.modal_overlay')
+const modal = document.querySelector('.modal')
 const cards = document.querySelectorAll('.card')
 
-for(let card of cards) {
-  card.addEventListener("click", function(){
-    // PEGA O ID DO CARD
-    const cardID = card.getAttribute("id")
-    // ATIVA O MODAL 
-    modalOverlay.classList.add('active')
-
-    modalOverlay.classList.add('modal-content')     
-    // modalOverlay.querySelector('modal-content') = cardID
-  })
+for(let card of cards){
+    card.addEventListener('click', () =>{
+        cardId = card.getAttribute('id')
+        cardName = card.querySelector('p.nome').innerHTML
+        cardChef = card.querySelector('p.chef').innerHTML
+        modalOverlay.querySelector('img').src = `assets/${cardId}.png`
+        modalOverlay.querySelector('h1').innerHTML = cardName
+        modalOverlay.querySelector('p').innerHTML = cardChef
+        modalOverlay.classList.add('active')
+    })
 }
 
-
-
-
-// FECHAR MODAL 
-document.querySelector(".close-modal").addEventListener("click", function(){
-  modalOverlay.classList.remove('active')  
+document.querySelector('.modal_close').addEventListener('click', () => {
+    modalOverlay.classList.remove('active')
+    modalOverlay.querySelector('img').src = ""
+    modalOverlay.querySelector('h1').innerHTML = null
+    modalOverlay.querySelector('p').innerHTML = null
 })
-
