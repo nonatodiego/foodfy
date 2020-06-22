@@ -2,8 +2,6 @@
 
 <p align="center">
 <image src="https://github.com/nonatodiego/foodfy/blob/master/assets/chef.png"/></br>
-[Foodfy] (https://diego-foodfy.netlify.app/receitas.html)
-
 </p>
 
 <p align="center">
@@ -27,6 +25,10 @@
 ---
 
 ## Sobre :memo:
+
+<p align="center">
+  <a href="https://diego-foodfy.netlify.app/">DEMO</a>
+</p>  
 
 Projeto do bootcamp da Rocketseat que visa implementar um site utilizando HTML com CSS grid e JavaScript Puro
 
