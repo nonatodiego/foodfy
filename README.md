@@ -2,7 +2,8 @@
 
 <p align="center">
 <image src="https://github.com/nonatodiego/foodfy/blob/master/assets/chef.png"/></br>
-<label>Foodfy</label>
+[Foodfy](https://diego-foodfy.netlify.app/receitas.html)
+
 </p>
 
 <p align="center">
@@ -17,6 +18,10 @@
 
 <p align="center">
 <image src="https://github.com/nonatodiego/foodfy/blob/master/layouts/mockup.png" />
+</p>
+
+<p align="center">
+<image src="" />
 </p>
 
 ---
