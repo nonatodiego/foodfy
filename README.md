@@ -1,7 +1,7 @@
 <h1>Foodfy</h1>
 
 <p align="center">
-<image src="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/c2/99/cb/c299cb56-2494-5ee3-6b4e-163d73e8b697/source/256x256bb.jpg"/></br>
+<image src="https://github.com/nonatodiego/foodfy/blob/master/assets/chef.png"/></br>
 <label>Foodfy</label>
 </p>
 
